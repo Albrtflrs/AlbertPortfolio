@@ -13,17 +13,17 @@ function Sidebar() {
   return (
     <aside
       className="
-      hidden lg:flex
+        hidden lg:flex
         fixed top-0 left-0
         flex flex-col items-center justify-center
         bg-[#1B1931] text-white
-        w-16 h-screen
+        w-16 h-screen          {/* Base width: 64px */}
         gap-8
         shadow-lg
-        sm:w-24
-        md:w-24
-        lg:w-24
-                transition-all duration-300
+        sm:w-24              {/* Small screen width: 96px */}
+        md:w-24              {/* Medium screen width: 96px (Fixed from w-25) */}
+        lg:w-24              {/* Large screen width: 96px (Fixed from w-25) */}
+        transition-all duration-300
       "
     >
       {[
