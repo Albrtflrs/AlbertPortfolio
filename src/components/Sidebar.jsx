@@ -17,13 +17,13 @@ function Sidebar() {
         fixed top-0 left-0
         flex flex-col items-center justify-center
         bg-[#1B1931] text-white
-        w-20 h-screen
+        w-16 h-screen
         gap-8
         shadow-lg
-        sm:w-22
-        md:w-22
-        lg:w-22
-        transition-all duration-300
+        sm:w-24
+        md:w-24
+        lg:w-24
+                transition-all duration-300
       "
     >
       {[
