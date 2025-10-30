@@ -21,8 +21,8 @@ function Sidebar() {
         gap-8
         shadow-lg
         sm:w-24
-        md:w-25
-        lg:w-25
+        md:w-24
+        lg:w-24
         transition-all duration-300
       "
     >
