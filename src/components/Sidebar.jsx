@@ -20,9 +20,9 @@ function Sidebar() {
         w-20 h-screen
         gap-8
         shadow-lg
-        sm:w-24
-        md:w-24
-        lg:w-24
+        sm:w-22
+        md:w-22
+        lg:w-22
         transition-all duration-300
       "
     >
