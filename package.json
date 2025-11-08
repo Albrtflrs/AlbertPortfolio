@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://Albrtflrs.github.io/AlbertPortfolio",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
