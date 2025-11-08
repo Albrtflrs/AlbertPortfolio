@@ -13,18 +13,17 @@ function Sidebar() {
   return (
     <aside
       className="
-        hidden lg:flex
-        fixed top-0 left-0
-        flex flex-col items-center justify-center
-        bg-[#1B1931] text-white
-        w-16 h-screen          {/* Base width: 64px */}
-        gap-8
-        shadow-lg
-        sm:w-24              {/* Small screen width: 96px */}
-        md:w-24              {/* Medium screen width: 96px (Fixed from w-25) */}
-        lg:w-24              {/* Large screen width: 96px (Fixed from w-25) */}
-        transition-all duration-300
-      "
+    hidden md:flex
+    fixed top-0 left-0
+    flex flex-col items-center justify-between
+    bg-[#1B1931] text-white
+    w-12 lg:w-14
+    h-screen
+    py-20
+    gap-6
+    shadow-lg
+    transition-all duration-300 ease-in-out
+  "
     >
       {[
         { icon: faFacebook, color: "hover:text-blue-500", link: "https://www.facebook.com/Albrtflrs404/" },
