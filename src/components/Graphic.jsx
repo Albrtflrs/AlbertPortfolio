@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUpRightFromSquare, faPaintBrush } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare, faBasketball, faSoccerBall, faPaintBrush } from '@fortawesome/free-solid-svg-icons'
 import Poster from '../assets/1stPosterSamp.png'
-import BackBelsi from '../assets/BackBelsi.png' // Note: This is not used in the `graphics` array
-import CoverPhoto from '../assets/COVERPHOTO.png'
-import FrontBelsi from '../assets/FrontBelsi.png'
+import CoverPhoto from '../assets/CoverPhoto.png'
 import Tarp from '../assets/tarp (1).png'
+import basketball from '../assets/basketball.png'
+import football from '../assets/football.png'
+import FrontBelsi from '../assets/FrontBelsi.png'
+import Captweb from '../assets/Captweb.png'
+import Afterfootball from '../assets/Afterfootball.png'
 
 function GraphicProjects() {
     const [modalImage, setModalImage] = useState(null)
@@ -35,6 +38,30 @@ function GraphicProjects() {
             icon: faPaintBrush,
             image: Tarp,
         },
+        {
+            title: 'Basketball Jersey',
+            description: 'Customize basketball jersey design.',
+            icon: faBasketball,
+            image: basketball,
+        },
+        {
+            title: 'Football kit',
+            description: 'Customize football kit design.',
+            icon: faSoccerBall,
+            image: football,
+        },
+        {
+            title: 'Web Design',
+            description: 'A sample web design graphic showcasing layout and aesthetics.',
+            icon: faPaintBrush,
+            image: Captweb,
+        },
+        {
+            title: 'After Football',
+            description: 'Local Football League management system design to efficiently manage teams, schedules, and player statistics.',
+            icon: faSoccerBall,
+            image: Afterfootball,
+        }
     ]
 
     return (
