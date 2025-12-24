@@ -6,19 +6,21 @@ import Sidebar from './components/Sidebar.jsx'
 import LiquidEther from './components/LiquidEther.jsx'
 import Project from './components/Project.jsx'
 import Graphic from './components/Graphic.jsx'
+import { Analytics } from "@vercel/analytics/next"
 function App() {
 
 
   return (
     <>
       <LiquidEther />
-        <Navbar />
-        <div className="flex min-h-screen">
+      <Navbar />
+      <div className="flex min-h-screen">
         <Sidebar />
-          <div className="flex-1 flex flex-col">
-        <MainContent />
-        <Project/>
-        <Graphic/>
+        <div className="flex-1 flex flex-col">
+          <MainContent />
+          <Project />
+          <Graphic />
+          <Analytics />
         </div>
       </div>
     </>
