@@ -8,7 +8,7 @@ import basketball from '../assets/basketball.png'
 import football from '../assets/football.png'
 import FrontBelsi from '../assets/FrontBelsi.png'
 import Captweb from '../assets/Captweb.png'
-import Afterfootball from '../assets/Afterfootball.png'
+import AfterFootball from '../assets/AfterFootball.png'
 
 function GraphicProjects() {
     const [modalImage, setModalImage] = useState(null)
@@ -60,7 +60,7 @@ function GraphicProjects() {
             title: 'After Football',
             description: 'Local Football League management system design to efficiently manage teams, schedules, and player statistics.',
             icon: faSoccerBall,
-            image: Afterfootball,
+            image: AfterFootball,
         }
     ]
 
