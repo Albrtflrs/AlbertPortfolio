@@ -10,7 +10,7 @@ import {
 
 // Assets Import (Fixed naming/syntax)
 import PosterImg from '../assets/1stPosterSamp.png'
-import CoverPhotoImg from '../assets/CoverPhoto.png'
+import CoverPhotoImg from '../assets/COVERPHOTO.png'
 import TarpImg from '../assets/tarpauline.png' // Changed from 'tarp (1)' to 'tarp1'
 import basketballImg from '../assets/basketball.png'
 import footballImg from '../assets/football.png'
