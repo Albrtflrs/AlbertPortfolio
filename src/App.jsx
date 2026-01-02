@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar.jsx'
 import LiquidEther from './components/LiquidEther.jsx'
 import Project from './components/Project.jsx'
 import Graphic from './components/Graphic.jsx'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 function App() {
 
 
