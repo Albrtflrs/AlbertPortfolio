@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      // Apply saved theme/palette before first paint (prevents a flash of the wrong theme)
+      try {
+        var d = document.documentElement,
+          t = localStorage.getItem('theme'),
+          p = localStorage.getItem('palette');
+        if (t !== 'light' && t !== 'dark')
+          t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        if (['bw', 'color', 'beach'].indexOf(p) < 0) p = 'bw';
+        d.dataset.theme = t;
+        d.dataset.palette = p;
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>portfolio</title>
   </head>
   <body>
