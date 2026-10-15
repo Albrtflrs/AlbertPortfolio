@@ -294,6 +294,13 @@ export default function App() {
       <header className="sticky top-0 z-10 flex items-center gap-2 border-b border-line bg-bg/85 px-5 py-2.5 font-mono text-xs text-mut backdrop-blur">
 
 
+
+
+
+
+
+
+
         <div className="ml-auto flex items-center gap-0.5 rounded-full border border-line bg-panel p-0.5">
           {PALETTES.map((p) => {
             const active = palette === p.id;
